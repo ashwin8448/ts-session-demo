@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  h1 {
+    color: red;
+  }
+}
+
+#btn {
+  padding: 20px;
+  background-color: rgba(137, 43, 226, 0.389);
+  border-radius: 5px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
