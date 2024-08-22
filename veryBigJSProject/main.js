@@ -3,7 +3,7 @@ const input = document.getElementById("userId");
 const userDetails = document.getElementById("userDetails");
 button.onclick = () => getUser(input.value);
 
-users = [
+const users = [
   {
     name: "Rahul",
     age: "46",
